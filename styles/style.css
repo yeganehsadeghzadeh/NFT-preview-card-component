@@ -1,3 +1,130 @@
 body {
-    font-family: "OutfitFont";
+  font-family: "OutfitFont";
+  background-color: hsl(217, 54%, 11%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content {
+  background-color: hsl(216, 50%, 16%);
+  width: min-content;
+  padding: 20px 20px 16px 20px;
+  border-radius: 11px;
+}
+
+.Container-img {
+  position: relative;
+}
+
+.image-equilibrium {
+  width: 260px;
+  border-radius: 8px;
+}
+
+.hover-img {
+  height: 260px;
+  width: 260px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  border-radius: 8px;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hover-img:hover {
+  opacity: 1;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container h1 {
+  font-size: 19px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.content-container h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.content-container > p {
+  margin: 0;
+  color: hsl(215deg 19.1% 40.86%);
+  font-weight: 500;
+}
+
+.icon-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.icon-div {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.icon-content img {
+  margin-right: 7px;
+}
+
+.ethereum p {
+  color: hsl(178, 100%, 50%);
+}
+
+.clock p {
+  color: hsl(215deg 19.1% 40.86%);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 27px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.profile p {
+  font-size: 14px;
+  color: hsl(215deg 19.1% 40.86%);
+  font-weight: 700;
+}
+
+.profile-span {
+  color: #fff;
+  font-weight: 400;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.profile-span:hover {
+  color: hsl(178, 100%, 50%);
 }
