@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "OutfitFont";
+  src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Outfit-Medium";
+  src: url(../fonts/Outfit-Medium.ttf);
+}
+@font-face {
+  font-family: "Outfit-Bold";
+  src: url(../fonts/Outfit-Bold.ttf);
+}
